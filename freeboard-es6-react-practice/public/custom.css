@@ -1,0 +1,98 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    margin: 0; 
+    padding: 0;
+}
+
+p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#root {
+    width: 100%;
+    height: 100%;
+}
+
+#entrance input:focus + label {
+    color: #fff;
+}
+
+#entrance input:focus {
+    border-bottom: 1px solid #fff;
+    box-shadow: 0 1px 0 0 #fff;
+}
+
+#user_create input[type=text]:focus + label {
+    color: rgb(248, 115, 83);
+}
+  /* label underline focus color */
+#user_create input[type=text]:focus {
+    border-bottom: 1px solid rgb(248, 115, 83);
+    box-shadow: 0 1px 0 0 rgb(248, 115, 83);
+}
+
+#notice_create input[type=text]:focus + label {
+    color: rgb(66, 134, 244);
+}
+
+#notice_create input[type=text]:focus {
+    border-bottom: 1px solid rgb(66, 134, 244);
+    box-shadow: 0 1px 0 0 rgb(66, 134, 244);
+}
+
+#notice_create textarea:focus + label {
+    color: rgb(66, 134, 244);
+}
+
+#notice_create textarea:focus {
+    border-bottom: 1px solid rgb(66, 134, 244);
+    box-shadow: 0 1px 0 0 rgb(66, 134, 244);
+}
+
+#user_switch label input[type=checkbox]:checked+.lever {
+    background-color: rgb(248, 115, 83);
+}
+  
+#user_switch label input[type=checkbox]:checked+.lever:after {
+    background-color: rgb(248, 115, 83);
+}
+
+#tag_button {
+    background-color: rgb(248, 115, 83);
+}
+
+#comment input:focus + label {
+    color: rgb(248, 115, 83);
+}
+
+#comment input:focus {
+    border-bottom: 1px solid rgb(248, 115, 83);
+    box-shadow: 0 1px 0 0 rgb(248, 115, 83);
+}
+
+#comment_submit {
+    background-color: rgb(248, 115, 83);
+}
+
+#manupulation input:focus + label {
+    color: rgb(248, 115, 83);
+}
+
+#manupulation input:focus {
+    border-bottom: 1px solid rgb(248, 115, 83);
+    box-shadow: 0 1px 0 0 rgb(248, 115, 83);
+}
+
+#manupulation input.valid[type=number]:not {
+    border-bottom: 1px solid rgb(248, 115, 83);
+    box-shadow: 0 1px 0 0 rgb(248, 115, 83);
+}
+
+a {
+    color: black;
+}
